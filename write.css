@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #353535
+}
+
+.container{
+    background-color: #424242;
+    margin: auto;
+    width: 70vw;
+    height: 100%;
+}
+
+.image{
+    height: 30vw;
+    width:100%;
+    background-color: rgb(149, 149, 149);
+    position: relative;
+}
+
+.navbar{
+    background-color: #171717;
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+}
+.upload{
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.pub{
+border: 1px solid yellow;
+background: transparent;
+color: yellow;
+padding: 7px;
+margin-right: 10px;
+border-radius: 10px;
+
+}
+.upimg{
+    border: 1px solid yellow;
+    background: transparent;
+    color: yellow;
+padding: 7px;
+border-radius: 10px;
+}
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    border: none;
+    outline: none;
+}
+
+.txt1 textarea{
+    margin-top: 5px;
+    background-color: #ffcc00;
+}
+
+.txt2 textarea{
+    background-color: rgb(255, 255, 112);
+}

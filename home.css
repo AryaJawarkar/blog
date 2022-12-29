@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #353535;
+}
+
+.container{
+    background-color: #424242;
+    margin: auto;
+    width: 70vw;
+    height: 100vh;
+}
+
+/* /////////////////////////////////////////// */
+
+.navbar{
+    display: flex;
+    background-color: #ffcc00;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+            top: 0px;
+            min-height: 60px;
+}
+
+._a{
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+._b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn{
+    background: transparent;
+    border: none;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn2{
+    text-decoration: none;
+    color: black;
+}
+
+/* //////////////////////////////////// */
+
+.banner{
+    background-image:  url('asset/flowers-yellow-flowers-black-background-digital-art-wallpaper-preview.jpg');
+    width: 100%;
+    height: 30vw;
+    background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+    background-size: 100% 100%;
+}
+
+.txt1{
+    color: rgb(255, 255, 32);
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.txt2{
+    color: yellow;
+    font-size: 5vw;
+
+    font-weight: bolder;
+}
+
+.create{
+    background-color: transparent;
+    border: 1px solid yellow;
+    color:  yellow;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+cursor: pointer;
+}
+
+/* //////////////////////////////////////////// */
+.main-cont{
+    width: 100%;
+    height: auto;
+   background-color: #1b1b1b;
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100% ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blog-card{
+width: 30vw;
+border-radius: 10px;
+margin: 20px 10px;
+}
+.image{
+    width: 100%;
+    height: 9rem;
+    background-image: url('asset/Furai_side3_4_2_0Hi-1-1170.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+border-radius: 10px;
+
+}
+
+.card-head{
+    margin-top: 7px;
+    color: rgb(255, 251, 0,0.8);
+    font-size: 16px;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.txt3{
+    
+    margin-top: 7px;
+    color: rgb(247, 255, 4,0.7);
+    font-size: 12px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* //////////////////////////////////////////// */
+
+
+.info{
+    width: 100%;
+    height: 400px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    background-image: url('asset/black-background-flowers-yellow-flowers-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    
+
+}
+.info-me{
+    color: rgb(219, 219, 0);
+    
+}
+.copy{
+    color: rgb(213, 213, 0);
+    margin-top: 10px;
+    font-size: 1vw;
+
+}
+.desc3{
+    font-size: 1vw;
+    margin-top: 10px;
+}
+.info a{
+    text-decoration: none;
+    color: rgb(207, 207, 0);
+}
+
+.footer-link{
+    font-size: 1vw;
+}
+/* //////////////////////////////////////////// */
+.money{
+    background-image: linear-gradient(rgb(61, 61, 61,.7),rgb(0, 0, 0)),url('asset/5404065.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffcc00;
+    width: 100%;
+    height: 600px;
+padding: 20px;
+}
+/* //////////////////////////////////////////// */
+.aud{
+    background-image: linear-gradient(rgb(61, 61, 61,.7),rgb(0, 0, 0)),url('asset/UnderstandTargetAudienceNeeds.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffcc00;
+    width: 100%;
+    height: 600px;
+padding: 20px;
+}
+/* //////////////////////////////////////////// */
+.other{
+    background-image: linear-gradient(rgb(61, 61, 61,.7),rgb(0, 0, 0)),url('asset/the-world-continents-black-background-world-map-wallpaper-preview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffcc00;
+    width: 100%;
+    height: 600px;
+padding: 20px;
+}
+
+.other p{
+    margin-top: 20px;
+    font-size: 1.2vw;
+}
+.money p{
+    font-size: 1.2vw;
+    margin-top: 20px;
+
+}
+.aud p{
+    font-size: 1.2vw;
+    margin-top: 20px;
+
+}
+
+.other a{
+    text-decoration: none;
+    color: #f6ff00;
+    border: 1px solid yellow;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 800px){
+
+    .blog-card{
+        width:50vw;
+    }
+}
